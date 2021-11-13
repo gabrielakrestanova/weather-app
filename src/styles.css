@@ -1,0 +1,104 @@
+body {
+  font-family: "Staatliches", cursive;
+  padding: 50px;
+  background-color: rgba(240, 207, 235, 0.2);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Staatliches", cursive;
+}
+
+h1 {
+  padding: 30px;
+  color: #6eaff7;
+  font-size: 60px;
+  font-family: "Staatliches", cursive;
+}
+
+h2 {
+  text-align: center;
+  padding: 0 30px;
+  font-size: 60px;
+}
+
+h3 {
+  text-align: center;
+  color: #9179ef;
+  font-size: 40px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+input {
+  border: 1px solid #9179ef;
+  border-radius: 10px;
+  padding: 5px;
+  width: 200px;
+}
+.inhalt {
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+  width: 800px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(220, 196, 252) 11.2%,
+    rgb(150, 199, 253) 100.2%
+  );
+  border-radius: 10px;
+  border: 2px solid #9179ef;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.submit {
+  max-width: 80px;
+}
+
+.geolocation-button {
+  border: 1px solid #9179ef;
+  border-radius: 10px;
+  padding: 5px;
+  width: 200px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.night-temperature {
+  color: grey;
+}
+
+.hour-prediction {
+  padding: 30px 0;
+  text-align: center;
+}
+.hours {
+  font-size: 10px;
+  text-align: center;
+}
+.hour-temperature {
+  text-align: center;
+  font-size: 15px;
+}
+.sunny,
+.halfsunny,
+.cloudy,
+.rainy,
+.bolt {
+  font-size: 20px;
+}
+
+.prediction {
+  padding-top: 30px;
+  text-align: center;
+}
+.long-temperature {
+  text-align: center;
+  font-size: 18px;
+}
+.big-icon {
+  font-size: 30px;
+}
