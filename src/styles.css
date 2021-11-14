@@ -40,6 +40,12 @@ input {
   padding: 5px;
   width: 200px;
 }
+
+footer {
+  text-align: right;
+  margin: 0 250px;
+}
+
 .inhalt {
   display: block;
   margin: 0 auto;
